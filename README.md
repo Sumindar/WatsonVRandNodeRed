@@ -76,7 +76,7 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/output02.png)
 
-### You have now completed a minilab, finish the task below and meet us at Novus Launch to grab IBM Swag kits
+### Congragulations!! You have now completed a minilab, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
 
 ## Task:
 1. Add on top of the node red application that you have created.
