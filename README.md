@@ -12,23 +12,23 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ## Steps:
 
-1. Login to IBM Cloud, create a Node-Red service instance. (Name the instance, click create/next to finish the instance creation)
+1. Login to IBM Cloud, create a ``Node-Red`` service instance. (Name the instance, click create/next to finish the instance creation)
 
 ![](img/instancecreateNR.png)
 
-2. Go to Resource list on from cloud page and open Node Red application from Cloud Foundry Applications. Then click on visit app url.
+2. Go to ``Resource list`` on from cloud page and open Node Red application from Cloud Foundry Applications. Then click on ``visit app url``.
 
 ![](img/visitappurl.png)
 
-3. Click on Next till the application is created.
+3. Click on ``Next`` till the application is created.
 
 ![](img/noderednext.png)
 
-4. Click on Go to your Node-Red flow editor
+4. Click on ``Go to your Node-Red flow`` editor
 
 ![](img/nrvisitapp.png)
 
-5. Click on the right corner of the screen and click on import.
+5. Click on the right corner of the screen and click on ``import``.
 
 ![](img/nrimport.png)
 
@@ -36,31 +36,31 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/nrimport1.png)
 
-7. Double click on the visual recognition node in the flow.
+7. Double click on the ``visual recognition`` node in the flow.
 
 ![](img/flowvrnode.png)
 
-8. Head back to IBM Cloud, search for Visual Recognition service or find it under AI services. Click on it.
+8. Head back to IBM Cloud, search for ``Visual Recognition`` service or find it under AI services. Click on it.
 
 ![](img/instancecreateVR.png)
 
-9. Click on create
+9. Click on ``create``
 
 ![](img/instancecreateVR-1.png)
 
-10. On the left side of the screen, click on service credentials.
+10. On the left side of the screen, click on ``service credentials``.
 
 ![](img/servicecredVR.png)
 
-11. Click on view credentials under Auto-generated credentials and copy the apikey without ""
+11. Click on view credentials under ``Auto-generated credentials`` and copy the ``apikey`` without ""
 
 ![](img/apikeyVR.png)
 
-12. Head back to Node-Red flow editor and paste it in the visual recognition node. Click on done which closes the node properties.
+12. Head back to Node-Red flow editor and paste it in the visual recognition node. Click on ``Done`` which closes the node properties.
 
 ![](img/nrcopyapivr.png)
 
-13. On the right corner of the screen, click on deploy.
+13. On the right corner of the screen, click on ``Deploy``
 
 ![](img/nrdeployflow.png)
 
@@ -68,15 +68,15 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/nrurlcopy.png)
 
-15. You will be landed on a page that looks something like this. Select an image from web or select one of the images from the ui, copy the image location or image address and paste it in the textbox below.
+15. You will be landed on a page that looks something like this. Select an image from web or select one of the images from the ui, copy the image location or ``image address`` and paste it in the text box below.
 
 ![](img/output01.png)
 
-16. Click on analyze and you will see the image recognised by watson and also the calorie details in the food image.
+16. Click on ``Analyze`` and you will see the image recognised by watson and also the calorie details in the food image.
 
 ![](img/output02.png)
 
-### Congragulations!! You have now completed a minilab, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
+### Congragulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
 
 ## Task:
 1. Add on top of the node red application that you have created.
