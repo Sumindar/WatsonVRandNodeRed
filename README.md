@@ -104,7 +104,7 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/output02.png)
 
-### Congratulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
+### Congratulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud. Explore more on [cognitiveclass.ai](https://cognitiveclass.ai/badges). 
 
 ## Task:
 1. Add on top of the node red application that you have created.
