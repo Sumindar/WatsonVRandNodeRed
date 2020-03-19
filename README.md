@@ -104,10 +104,6 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/output02.png)
 
-### Congratulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud. Explore more on [cognitiveclass.ai](https://cognitiveclass.ai/badges). 
+### Congratulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud. Explore more on [cognitiveclass.ai](https://cognitiveclass.ai/badges). Click this link to access a course on [Node-Red](https://cognitiveclass.ai/courses/node-red-basics-to-bots).
 
-## Task:
-1. Add on top of the node red application that you have created.
-2. Create a simple dashboard that displays the calories consumed and suggests exercise to be done to burn the calories.
-
-HAPPY CODING!!
+## HAPPY CODING!!
