@@ -12,11 +12,39 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ## Steps:
 
-1. Login to IBM Cloud, create a ``Node-Red`` service instance. (Name the instance, click create/next to finish the instance creation)
+1. Login to IBM Cloud, click on ``Catalog`` and search for ``Node Red App`` in ``Software``. create a ``Node-Red`` service instance as showed in the following images.
+
+![](img/noderedsearch.png)
 
 ![](img/instancecreateNR.png)
 
+``Do not change the default details in textboxes the defaults and click on create``
+
+![](img/noderedcreate01.png)
+
+``Once the provisioning of Cloudant is finished, click on Deploy your app.``
+
+![](img/noderedcreate02.png)
+
+![](img/noderedcreate03.png)
+
+![](img/noderedcreate04.png)
+
+![](img/noderedcreate05.png)
+
+``Wait for the status to become Success from inprogress``
+
+![](img/noderedcreate06.png)
+
 2. Go to ``Resource list`` on from cloud page and open Node Red application from Cloud Foundry Applications. Then click on ``visit app url``.
+
+![](img/noderedfind01.png)
+
+``Under Cloud Foundry Apps, you will be able to see the instance that you have just created. Click on it.``
+
+![](img/noderedfind02.png)
+
+``Click on visit app url``
 
 ![](img/visitappurl.png)
 
@@ -24,7 +52,7 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/noderednext.png)
 
-4. Click on ``Go to your Node-Red flow`` editor
+4. Click on ``Go to your Node-Red flow`` editor.
 
 ![](img/nrvisitapp.png)
 
@@ -40,11 +68,11 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/flowvrnode.png)
 
-8. Head back to IBM Cloud, search for ``Visual Recognition`` service or find it under AI services. Click on it.
+8. Go back to IBM Cloud, search for ``Visual Recognition`` service or find it under AI services. Click on it.
 
 ![](img/instancecreateVR.png)
 
-9. Click on ``create``
+9. Click on ``create``.
 
 ![](img/instancecreateVR-1.png)
 
@@ -56,11 +84,11 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/apikeyVR.png)
 
-12. Head back to Node-Red flow editor and paste it in the visual recognition node. Click on ``Done`` which closes the node properties.
+12. Go back to Node-Red flow editor and paste it in the visual recognition node. Click on ``Done`` which closes the node properties.
 
 ![](img/nrcopyapivr.png)
 
-13. On the right corner of the screen, click on ``Deploy``
+13. On the right corner of the screen, click on ``Deploy``.
 
 ![](img/nrdeployflow.png)
 
@@ -76,7 +104,7 @@ In this lab, you will create a calorie counter web app using Node-RED, Watson Vi
 
 ![](img/output02.png)
 
-### Congragulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
+### Congratulations!! You have now completed a minilab on Watson Visual Recognition and Node Red Starter Kit on IBM Cloud, finish the task below and meet us at Novus Launch to grab IBM Swag kits.
 
 ## Task:
 1. Add on top of the node red application that you have created.
